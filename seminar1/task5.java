@@ -18,11 +18,12 @@ public class task5 {
             System.out.println("Массив не содержит пустых ячеек");
         }
         else{
-            for (int i = 0; i < list.size()-1; i++) {
-                System.out.print(list.get(i) + ", ");
-            }
-            System.out.print(list.get(list.size()-1));
-            System.out.println(" - данных индексах массива содержится null");
+            // for (int i = 0; i < list.size()-1; i++) {
+            //     System.out.print(list.get(i) + ", ");
+            // }
+            // System.out.print(list.get(list.size()-1));
+            // System.out.println(" - данных индексах массива содержится null");
+            System.out.println("Пустые элементы на позиции " + list);
         }
     }
 }
