@@ -21,7 +21,7 @@ public class task5 {
             for (int i = 0; i < list.size()-1; i++) {
                 System.out.print(list.get(i) + ", ");
             }
-            System.out.print(list.get(list.size()));
+            System.out.print(list.get(list.size()-1));
             System.out.println(" - данных индексах массива содержится null");
         }
     }
